@@ -19,10 +19,10 @@ class Node {
 
  class  LRU {
 
-    public static int rongliang;
-    public static int capacity;
-   public static Node head;
-     public static Node tail;
+  public static int rongliang;
+  public static int capacity;
+  public static Node head;
+   public static Node tail;
      public static HashMap<Integer, Node>  cache = new HashMap<Integer,Node>();
 
     public  LRU(int capacity) {

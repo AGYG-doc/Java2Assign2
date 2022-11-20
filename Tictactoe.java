@@ -20,13 +20,13 @@ import java.util.*;
   private double xushu;
 
 
-    public Tictactoe(double shi, double xu) {
+  public Tictactoe(double shi, double xu) {
         shishu = shi;
         xushu = xu;
     }
 
 
-    public String toString() {
+  public String toString() {
             double dd = Math.sqrt(Math.pow(xushu,2)+Math.pow(shishu,2));
             String str = String.format("%.10f",dd);
             return str;

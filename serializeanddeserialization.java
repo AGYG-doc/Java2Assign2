@@ -9,7 +9,7 @@ import java.util.*;
 import java.util.PriorityQueue;
 
  class serializeanddeserialization implements Comparable<serializeanddeserialization> {
-	int l;
+  int l;
     int r;
     int shijian;
     long zhi;

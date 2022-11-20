@@ -10,8 +10,9 @@ import java.awt.event.KeyListener;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
-import javax.swing.*;
 import java.util.Scanner;
+import javax.swing.*;
+
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -39,13 +40,13 @@ public class Client extends Frame implements ActionListener, KeyListener {
 
     public boolean isOnChat = false;
 
-    public boolean isOnChess = false;
+  public boolean isOnChess = false;
 
-    public boolean isGameConnected = false;
+  public boolean isGameConnected = false;
 
-    public boolean isCreator = false;
+  public boolean isCreator = false;
 
-    public boolean isParticipant = false;
+  public boolean isParticipant = false;
 
     public UserList userListPad = new UserList();
     /**

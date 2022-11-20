@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.*;
 public class SocketMessage {
 
-    static class Untitled {
+  static class Untitled {
         public static void main(String[] args) {
             QReader in = new QReader();
             QWriter out = new QWriter();

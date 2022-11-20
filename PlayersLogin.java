@@ -3,7 +3,7 @@ package bing;
 public class PlayersLogin extends Frame implements ActionListener {
   JButton clearMsgButton = new JButton("清空");
   JButton serverStatusButton = new JButton("状态");
-    JButton closeServerButton = new JButton("关闭");
+  JButton closeServerButton = new JButton("关闭");
     Panel buttonPanel = new Panel();
     ServerMsgPanel serverMsgPanel = new ServerMsgPanel();
     ServerSocket serverSocket;
