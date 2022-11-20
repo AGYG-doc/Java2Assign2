@@ -1,13 +1,14 @@
 package bing;
+
+import java.io.*;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.*;
 import java.util.stream.Collectors;
-
-import java.io.*;
 import java.util.*;
 import java.util.HashMap;
+
 
 class Node {
     Node pre;

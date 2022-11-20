@@ -1,7 +1,8 @@
 package bing;
 
-import javax.swing.*;
 import java.awt.*;
+
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -9,6 +10,7 @@ import java.awt.event.KeyListener;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.Socket;
+import javax.swing.*;
 import java.util.Scanner;
 
 import java.util.HashMap;
@@ -24,9 +26,7 @@ public class Client extends Frame implements ActionListener, KeyListener {
 
     public Socket clientSocket;
 
-
     public DataInputStream inputStream;
-
 
     public DataOutputStream outputStream;
 
@@ -65,7 +65,7 @@ public class Client extends Frame implements ActionListener, KeyListener {
 
 
     public ClientChess() {
-        super("tic");
+     super("tic");
         setLayout(new BorderLayout());
         host = userControlPad.ipInputted.getText();
 
@@ -157,7 +157,7 @@ public class Client extends Frame implements ActionListener, KeyListener {
             host = chessBoard.host = userControlPad.ipInputted.getText();
             try {
 
-                if (connectToServer(host, port)) {
+        if (connectToServer(host, port)) {
                     userChatPad.chatTextArea.setText("");
                     userControlPad.connectButton.setEnabled(false);
                     userControlPad.createButton.setEnabled(true);

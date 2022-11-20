@@ -1,4 +1,6 @@
 package bing;
+
+import java.io.*;
 import javafx.application.Platform;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -9,13 +11,13 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-import java.io.*;
+
 
 import java.util.*;
 
  class Tictactoe {
-    private  double shishu;
-    private double xushu;
+  private  double shishu;
+  private double xushu;
 
 
     public Tictactoe(double shi, double xu) {

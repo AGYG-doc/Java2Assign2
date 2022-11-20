@@ -1,7 +1,6 @@
 package bing;
+
 import java.io.Serializable;
-
-
 import java.io.*;
 import java.util.*;
 public class SocketMessage {
@@ -10,7 +9,7 @@ public class SocketMessage {
         public static void main(String[] args) {
             QReader in = new QReader();
             QWriter out = new QWriter();
-            while (in.hasNext()) {
+      while (in.hasNext()) {
                 int x = in.nextInt();
                 out.println(x);
             }
